@@ -14,13 +14,13 @@ Follow [this guide](https://blogs.oracle.com/developers/post/how-to-set-up-and-r
 
 ## Download AMP
 
-Grab a copy of CuberCoders AMP game server admin panel for your cloud server from [here](https://cubecoders.com/AMP). Replace the steps in the above guide to install Minecraft with installing AMP instead.
+Grab a copy of **CuberCoders AMP** game server admin panel for your cloud server from [here](https://cubecoders.com/AMP). Replace the steps in the above guide to install Minecraft with installing AMP instead, and use **Ubuntu 24.04** instead of Oracle Linux.
 
 ![CubeCoders AMP](./img/cubecoders-amp.png)
 
 ## Install AMP on your server
 
-Download your SSH keys during instance setup. Use an app like [Termius](https://termius.com) for easy SSH management, and use it to install CubeCoders AMP on your server. Follow AMP install instructions in Termius console.
+Download your SSH keys during instance setup. Use an app like [Termius](https://termius.com) for easy SSH management, and use it to install CubeCoders AMP on your server. Follow AMP install instructions in ***Termius*** console.
 
 ![Termius SSH Client](./img/termius.png)
 
@@ -30,9 +30,9 @@ Visit the Oracle instance security page and add rules to open ports `2224 (TCP)`
 
 ## Log in to AMP and setup Minecraft
 
-Visit your server's IPv4 address in your browser with :8080 on the end of the address to open AMP's console. Create a new game server instance and select Minecraft Java Edition. In Minecraft's configuration (Configuration -> Minecraft -> Server and Startup), choose Fabric version 1.21.1, Loader version 0.16.10 and installer version 1.0.1. 
+Visit your server's IPv4 address in your browser with :8080 on the end of the address to open AMP's console. Create a new game server instance and select Minecraft Java Edition. In Minecraft's configuration (***Configuration -> Minecraft -> Server and Startup***), choose Fabric version 1.21.1, Loader version 0.16.10 and installer version 1.0.1. 
 
-In Java and Memory tab, set memory limit to 20024MB.
+In ***Java and Memory*** tab, set memory limit to **20024MB**.
 
 ## Download Server Mods
 
