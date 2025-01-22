@@ -11,11 +11,11 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Mod Dojo Docs',
-  tagline: 'Documentation for channel videos',
+  tagline: 'Documentation for channel',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://moddojo.netlify.app',
+  url: 'https://your-docusaurus-site.example.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -78,7 +78,7 @@ const config = {
       navbar: {
         title: 'Mod Dojo Docs',
         logo: {
-          alt: 'Mod Dojo Logo',
+          alt: 'Mod Dojo',
           src: 'img/logo.svg',
         },
         items: [
@@ -151,7 +151,7 @@ const config = {
 export default {
   themeConfig: {
     colorMode: {
-      defaultMode: 'dark',
+      defaultMode: 'light',
       disableSwitch: false,
       respectPrefersColorScheme: false,
     },
