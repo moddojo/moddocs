@@ -43,4 +43,4 @@ Minecraft will launch, Cobblemon includes a tutorial world to get started. This 
 
 ## Make your own Cobblemon Server
 
-Want to set up your own **Cobblemon server** that's compatable with this mod? Take a look at **[Cobblemon Server Setup](../minecraft/cobblemon-server.md)**
+Want to set up your own **Cobblemon server** that's compatible with this mod? Take a look at **[Cobblemon Server Setup](../minecraft/cobblemon-server.md)**
