@@ -14,7 +14,7 @@ Follow [this guide](https://blogs.oracle.com/developers/post/how-to-set-up-and-r
 
 ## Download AMP
 
-Grab a copy of **CuberCoders AMP** game server admin panel for your cloud server from [here](https://cubecoders.com/AMP). Replace the steps in the above guide to install Minecraft with installing AMP instead, and use **Ubuntu 24.04** instead of Oracle Linux.
+Grab a copy of **CuberCoders AMP** game server admin panel for your cloud server from [here](https://cubecoders.com/AMP). Replace the steps in the above guide to install Minecraft with installing ***AMP*** instead, and use **Ubuntu 24.04** instead of Oracle Linux.
 
 ![CubeCoders AMP](./img/cubecoders-amp.png)
 
