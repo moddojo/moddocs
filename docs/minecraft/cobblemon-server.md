@@ -36,7 +36,7 @@ In ***Java and Memory*** tab, set memory limit to **20024MB**.
 
 ## Download Server Mods
 
-Download server-side mods from Modrinth to your pc ready to transform your instance in to a Cobblemon server. When clicking the **Download** button on Modrinth, select ***Game version 1.21.1*** and ***Platform Fabric***.
+Download server-side mods from ***Modrinth*** to your PC ready to transform your instance in to a Cobblemon server. When clicking the **Download** button on ***Modrinth***, select ***Game version 1.21.1*** and ***Platform Fabric***.
 
 [Almanac](https://modrinth.com/mod/almanac)
 [AppleSkin](https://modrinth.com/mod/appleskin)
@@ -70,7 +70,7 @@ Download server-side mods from Modrinth to your pc ready to transform your insta
 
 ## Upload Server Mods
 
-Use an SFTP client like [WinSCP](https://winscp.net/eng/download.php) or [Cyberduck](https://cyberduck.io) to upload the mods to the **mod** folder of your Minecraft server. AMP provides instructions on how to connect.
+Use an SFTP client like [WinSCP](https://winscp.net/eng/download.php) or [Cyberduck](https://cyberduck.io) to upload the mods to the **mod** folder of your Minecraft server. ***AMP*** provides instructions on how to connect.
 
 Restart your server after uploads have completed.
 
