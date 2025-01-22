@@ -4,85 +4,43 @@ sidebar_position: 2
 
 # Cobblemon Mod
 
-Let's translate `docs/intro.md` to French.
+How to set up `Cobblemon 1.6` for `Minecraft 1.21.1`.
 
-## Configure i18n
+![Minecraft Cobblemon](./img/minecraft-cobblemon.jpg)
 
-Modify `docusaurus.config.js` to add support for the `fr` locale:
+## Modrinth Launcher
 
-```js title="docusaurus.config.js"
-export default {
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'fr'],
-  },
-};
-```
+Download the `Modrinth App` for your system:
 
-## Translate a doc
+[https://modrinth.com/app](https://modrinth.com/app)
 
-Copy the `docs/intro.md` file to the `i18n/fr` folder:
+Install & open the launcher, then sign in to your Minecraft account.
 
-```bash
-mkdir -p i18n/fr/docusaurus-plugin-content-docs/current/
+## Cobblemon Mod Pack
 
-cp docs/intro.md i18n/fr/docusaurus-plugin-content-docs/current/intro.md
-```
+Grab the official `Cobblemon` mod pack for `Fabric`:
 
-Translate `i18n/fr/docusaurus-plugin-content-docs/current/intro.md` in French.
+[https://modrinth.com/modpack/cobblemon-fabric](https://modrinth.com/modpack/cobblemon-fabric)
 
-## Start your localized site
+Click **Download** and then choose ***Install with Modrinth App***
 
-Start your site on the French locale:
+The app will download all required mods and create a specialized instance of Minecraft 1.21.1 with Fabric API.
 
-```bash
-npm run start -- --locale fr
-```
+Modrinth will download and install [Azul Java](https://www.azul.com/downloads/), a performant version of OpenJDK for Minecraft.
 
-Your localized site is accessible at [http://localhost:3000/fr/](http://localhost:3000/fr/) and the `Getting Started` page is translated.
 
-:::caution
+## Launch Cobblemon
 
-In development, you can only use one locale at a time.
+Start Cobblemon by selecting the instance in the Modrinth App and clicking the **Play** button.
 
-:::
+Minecraft will launch, Cobblemon includes a tutorial world to get started. This version of Cobblemon is compatible with all Cobblemon servers.
 
-## Add a Locale Dropdown
+![Modrinth App](./img/minecraft-cobblemon.png)
 
-To navigate seamlessly across languages, add a locale dropdown.
+## Example Gameplay
 
-Modify the `docusaurus.config.js` file:
+<iframe width="100%" style={{"aspect-ratio": "16 / 9"}} src="https://www.youtube.com/embed/FA-3t3zVkeY" title="Minecraft Cobblemon" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-```js title="docusaurus.config.js"
-export default {
-  themeConfig: {
-    navbar: {
-      items: [
-        // highlight-start
-        {
-          type: 'localeDropdown',
-        },
-        // highlight-end
-      ],
-    },
-  },
-};
-```
+## Make your own Cobblemon Server
 
-The locale dropdown now appears in your navbar:
-
-![Locale Dropdown](./img/localeDropdown.png)
-
-## Build your localized site
-
-Build your site for a specific locale:
-
-```bash
-npm run build -- --locale fr
-```
-
-Or build your site to include all the locales at once:
-
-```bash
-npm run build
-```
+Want to set up your own **Cobblemon server** compatable with his mod? Take a look at **[Cobblemon Server Setup](../minecraft/cobblemon-server.md)**

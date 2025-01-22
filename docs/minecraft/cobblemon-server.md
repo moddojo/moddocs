@@ -2,9 +2,11 @@
 sidebar_position: 1
 ---
 
-# Manage Docs Versions
+# Cobblemon Server Setup
 
-Docusaurus can manage multiple versions of your docs.
+The following instructions will show you how to set up a free cloud instance that's fast enough to run a Minecraft Cobblemon server.
+
+![Minecraft Cobblemon](./img/minecraft-cobblemon.jpg)
 
 ## Create a docs version
 
