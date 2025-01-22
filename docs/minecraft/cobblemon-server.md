@@ -30,7 +30,7 @@ Visit the Oracle instance security page and add rules to open ports `2224 (TCP)`
 
 ## Log in to AMP and setup Minecraft
 
-Visit your server's IPv4 address in your browser with :8080 on the end of the address to open AMP's console. Create a new game server instance and select Minecraft Java Edition. In Minecraft's configuration (***Configuration -> Minecraft -> Server and Startup***), choose Fabric version 1.21.1, Loader version 0.16.10 and installer version 1.0.1. 
+Visit your server's IPv4 address in your browser with :8080 on the end of the address to open AMP's web GUI. Create a new game server instance and select Minecraft Java Edition. In Minecraft's configuration (***Configuration -> Minecraft -> Server and Startup***), choose Fabric version 1.21.1, Loader version 0.16.10 and installer version 1.0.1. 
 
 In ***Java and Memory*** tab, set memory limit to **20024MB**.
 
