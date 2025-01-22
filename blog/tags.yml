@@ -1,18 +1,19 @@
-blog:
-release:
-  description: "Blog posts about Docusaurus' new releases"
-recap:
-  description: "Blog posts about Docusaurus' year recaps"
-birth:
-endi:
-tribute:
-i18n:
-beta:
-search:
-maintenance:
-documentation:
+facebook:
+  label: Facebook
+  permalink: /facebook
+  description: Facebook tag description
+
+hello:
+  label: Hello
+  permalink: /hello
+  description: Hello tag description
+
 docusaurus:
-profilo:
-adoption:
-unlisted:
-new:
+  label: Docusaurus
+  permalink: /docusaurus
+  description: Docusaurus tag description
+
+hola:
+  label: Hola
+  permalink: /hola
+  description: Hola tag description
