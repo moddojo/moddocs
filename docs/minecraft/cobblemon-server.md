@@ -4,54 +4,78 @@ sidebar_position: 1
 
 # Cobblemon Server Setup
 
-The following instructions will show you how to set up a free cloud instance that's fast enough to run a Minecraft Cobblemon server.
+The following instructions will show you how to set up an always free cloud instance that's fast enough to run a `Minecraft 1.21.1` `Cobblemon 1.6` server.
 
 ![Minecraft Cobblemon](./img/minecraft-cobblemon.jpg)
 
-## Create a docs version
+## Create a free cloud instance
 
-Release a version 1.0 of your project:
+Follow [this guide](https://blogs.oracle.com/developers/post/how-to-set-up-and-run-a-really-powerful-free-minecraft-server-in-the-cloud) to set up a free Oracle Cloud server instance. The free tier can have up to 4-cores, 24gb ram & 200gb storage. Choose a region that's close to you for low ping.
 
-```bash
-npm run docusaurus docs:version 1.0
-```
+## Download AMP
 
-The `docs` folder is copied into `versioned_docs/version-1.0` and `versions.json` is created.
+Grab a copy of CuberCoders AMP game server admin panel for your cloud server from [here](https://cubecoders.com/AMP). Replace the steps in the above guide to install Minecraft with installing AMP instead.
 
-Your docs now have 2 versions:
+![CubeCoders AMP](./img/cubecoders-amp.png)
 
-- `1.0` at `http://localhost:3000/docs/` for the version 1.0 docs
-- `current` at `http://localhost:3000/docs/next/` for the **upcoming, unreleased docs**
+## Install AMP on your server
 
-## Add a Version Dropdown
+Download your SSH keys during instance setup. Use an app like [Termius](https://termius.com) for easy SSH management, and use it to install CubeCoders AMP on your server. Follow AMP install instructions in Termius console.
 
-To navigate seamlessly across versions, add a version dropdown.
+![Termius SSH Client](./img/termius.png)
 
-Modify the `docusaurus.config.js` file:
+## Open ports on your server
 
-```js title="docusaurus.config.js"
-export default {
-  themeConfig: {
-    navbar: {
-      items: [
-        // highlight-start
-        {
-          type: 'docsVersionDropdown',
-        },
-        // highlight-end
-      ],
-    },
-  },
-};
-```
+Visit the Oracle instance security page and add rules to open ports 2224 (TCP), 8080 (TCP), 8081 (TCP) and 25565 (TCP & UDP).
 
-The docs version dropdown appears in your navbar:
+## Log in to AMP and setup Minecraft
 
-![Docs Version Dropdown](./img/docsVersionDropdown.png)
+Visit your server's IPv4 address in your browser with :8080 on the end of the address to open AMP's console. Create a new game server instance and select Minecraft Java Edition. In Minecraft's configuration (Configuration -> Minecraft -> Server and Startup), choose Fabric version 1.21.1, Loader version 0.16.10 and installer version 1.0.1. 
 
-## Update an existing version
+In Java and Memory tab, set memory limit to 20024MB.
 
-It is possible to edit versioned docs in their respective folder:
+## Download Server Mods
 
-- `versioned_docs/version-1.0/hello.md` updates `http://localhost:3000/docs/hello`
-- `docs/hello.md` updates `http://localhost:3000/docs/next/hello`
+Download server-side mods from Modrinth to your pc ready to transform your instance in to a Cobblemon server. When clicking the **Download** button on Modrinth, select ***Game version 1.21.1*** and ***Platform Fabric***.
+
+[Almanac](https://modrinth.com/mod/almanac)
+[AppleSkin](https://modrinth.com/mod/appleskin)
+[Architectury API](https://modrinth.com/mod/architectury-api)
+[Balm](https://modrinth.com/mod/balm)
+[Bookshelf](https://modrinth.com/mod/bookshelf-lib)
+[CICADA](https://modrinth.com/mod/cicada)
+[Cloth Config API](https://modrinth.com/mod/cloth-config)
+[Clumps](https://modrinth.com/mod/clumps)
+[Cobblemon](https://modrinth.com/mod/cobblemon)
+[Collective](https://modrinth.com/mod/collective)
+[Crafting Tweaks](https://modrinth.com/mod/crafting-tweaks)
+[Dismount Entity](https://modrinth.com/mod/dismount-entity)
+[Fabric API](https://modrinth.com/mod/fabric-api)
+[FancyMenu](https://modrinth.com/mod/fancymenu)
+[FerriteCore](https://modrinth.com/mod/ferrite-core)
+[Konkrete](https://modrinth.com/mod/konkrete)
+[Krypton](https://modrinth.com/mod/krypton)
+[Let Me Despawn](https://modrinth.com/mod/lmd)
+[Lithium](https://modrinth.com/mod/lithium)
+[Melody](https://modrinth.com/mod/melody)
+[Monsters in the Closet](https://modrinth.com/mod/monsters-in-the-closet)
+[NetherPortalFix](https://modrinth.com/mod/netherportalfix)
+[owo-lib](https://modrinth.com/mod/owo-lib)
+[Prickle](https://modrinth.com/mod/prickle)
+[SlimyFloor](https://www.curseforge.com/minecraft/mc-mods/slimyfloor)
+[Superflat World No Slimes](https://modrinth.com/mod/superflat-world-no-slimes)
+[TxniLib](https://modrinth.com/mod/txnilib)
+[YetAnotherConfigLib](https://modrinth.com/mod/yacl)
+[Your Options Shall Be Respected](https://modrinth.com/mod/yosbr)
+
+## Upload Server Mods
+
+Use an SFTP client like [WinSCP](https://winscp.net/eng/download.php) or [Cyberduck](https://cyberduck.io) to upload the mods to the **mod** folder of your Minecraft server. AMP provides instructions on how to connect.
+
+Restart your server after uploads have completed.
+
+![SFTP Client](./img/sftp-client.png)
+
+## Connect to your server
+
+Using a [Cobblemon Modded](../minecraft/cobblemon-mod.md) version of Minecraft, connect to your cloud server's IP address in the ***Multiplayer*** window.
