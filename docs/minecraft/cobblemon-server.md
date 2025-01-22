@@ -10,7 +10,7 @@ The following instructions will show you how to set up an always free cloud inst
 
 ## Create a free cloud instance
 
-Follow [this guide](https://blogs.oracle.com/developers/post/how-to-set-up-and-run-a-really-powerful-free-minecraft-server-in-the-cloud) to set up a free Oracle Cloud server instance. The free tier can have up to 4-cores, 24gb ram & 200gb storage. Choose a region that's close to you for low ping.
+Follow [this guide](https://blogs.oracle.com/developers/post/how-to-set-up-and-run-a-really-powerful-free-minecraft-server-in-the-cloud) to set up a free Oracle Cloud server instance. The free tier can have up to **4-cores**, **24gb RAM** & **200gb storage**. Choose a region that's close to you for low ping.
 
 ## Download AMP
 
@@ -26,7 +26,7 @@ Download your SSH keys during instance setup. Use an app like [Termius](https://
 
 ## Open ports on your server
 
-Visit the Oracle instance security page and add rules to open ports 2224 (TCP), 8080 (TCP), 8081 (TCP) and 25565 (TCP & UDP).
+Visit the Oracle instance security page and add rules to open ports `2224 (TCP)`, `8080 (TCP)`, `8081 (TCP)` and `25565 (TCP & UDP)`.
 
 ## Log in to AMP and setup Minecraft
 
