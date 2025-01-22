@@ -10,7 +10,7 @@ How to set up `Cobblemon 1.6` for `Minecraft 1.21.1`.
 
 ## Modrinth Launcher
 
-Download the `Modrinth App` for your system:
+Download the **Modrinth App** for your system:
 
 [https://modrinth.com/app](https://modrinth.com/app)
 
@@ -31,7 +31,7 @@ Modrinth will download and install [Azul Java](https://www.azul.com/downloads/),
 
 ## Launch Cobblemon
 
-Start Cobblemon by selecting the instance in the Modrinth App and clicking the **Play** button.
+Start Cobblemon by selecting the instance in the ***Modrinth App*** and clicking the **Play** button.
 
 Minecraft will launch, Cobblemon includes a tutorial world to get started. This version of Cobblemon is compatible with all Cobblemon servers.
 
@@ -43,4 +43,4 @@ Minecraft will launch, Cobblemon includes a tutorial world to get started. This 
 
 ## Make your own Cobblemon Server
 
-Want to set up your own **Cobblemon server** compatable with his mod? Take a look at **[Cobblemon Server Setup](../minecraft/cobblemon-server.md)**
+Want to set up your own **Cobblemon server** that's compatable with this mod? Take a look at **[Cobblemon Server Setup](../minecraft/cobblemon-server.md)**
