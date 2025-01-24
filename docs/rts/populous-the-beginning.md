@@ -14,7 +14,7 @@ Download Populous: The Beginning for Windows:
 
 [https://thebeginning.uk/play/](https://thebeginning.uk/play/)
 
-[Mirror](https://t.me/moddojo/12)
+[Mirror](https://1024terabox.com/s/1NOrYZYAhSnkONGGUqm8NZQ)
 
 Install the game to somewhere like `C:\Games\Populous` or `C:\Bullfrog\Populous`, but avoid the default `C:\Program Files (x86)\` path as this can cause issues with Multiverse Launcher.
 
@@ -25,7 +25,7 @@ The Multiverse Launcher is a client specifically designed for Populous: The Begi
 Download the launcher from here:
 [https://thebeginning.uk/multiverse/](https://thebeginning.uk/multiverse/)
 
-[Mirror](https://t.me/moddojo/12)
+[Mirror](https://1024terabox.com/s/1NOrYZYAhSnkONGGUqm8NZQ)
 
 ![Multiverse Launcher](./img/multiverse-launcher.jpg)
 
@@ -36,13 +36,13 @@ Multiverse Launcher adds new campaigns to Populous 3, simply visit the Campaigns
 
 [https://thebeginning.uk/campaigns/](https://thebeginning.uk/campaigns/)
 
-[Mirror](https://t.me/moddojo/12)
+[Mirror](https://1024terabox.com/s/1NOrYZYAhSnkONGGUqm8NZQ)
 
 Additional Campaigns can also be found on the Modding page, for these click ***Install*** in Multiverse then import the .pack files you just downloaded:
 
 [More Campaigns](https://thebeginning.uk/more-campaigns/)
 
-[Mirror](https://t.me/moddojo/12)
+[Mirror](https://1024terabox.com/s/1NOrYZYAhSnkONGGUqm8NZQ)
 
 ## Download Mods
 
@@ -50,7 +50,7 @@ You can install mods for Populous 3, just click ***Install*** in Multiverse Laun
 
 [Multiverse Mods](https://thebeginning.uk/multiverse-mods/)
 
-[Mirror](https://t.me/moddojo/12)
+[Mirror](https://1024terabox.com/s/1NOrYZYAhSnkONGGUqm8NZQ)
 
 ## Example Gameplay
 
