@@ -88,7 +88,6 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://youtube.com/@moddojo',
             label: 'YouTube',
