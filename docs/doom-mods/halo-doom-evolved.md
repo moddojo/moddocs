@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Halo: Doom Evolved
 
-How to set up `Halo: Doom Evolved` with the `GZDoom`.
+How to set up `Halo: Doom Evolved` with `GZDoom`.
 
 ![Halo: Doom Evolved](./img/halo-doom-evolved.jpg)
 
