@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Cobblemon Server Setup
 
-The following instructions will show you how to set up an always free cloud instance that's fast enough to run a `Minecraft 1.21.1` `Cobblemon 1.6` server.
+The following instructions will show you how to set up an always free cloud instance that's fast enough to run a `Minecraft 1.21.1` `Cobblemon 1.6.1` server.
 
 ![Minecraft Cobblemon](./img/minecraft-cobblemon.jpg)
 

@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Cobblemon Mod
 
-How to set up `Cobblemon 1.6` for `Minecraft 1.21.1`.
+How to set up `Cobblemon 1.6.1` for `Minecraft 1.21.1`.
 
 ![Minecraft Cobblemon](./img/minecraft-cobblemon.jpg)
 
