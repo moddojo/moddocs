@@ -40,4 +40,4 @@ The BSNES core in Retroarch is capable of playing MSU-1 roms. Ensure the rom fil
 
 ## Example Gameplay
 
-<iframe width="100%" style={{"aspect-ratio": "16 / 9"}} src="https://www.youtube.com/embed/h4yTSF51G6s" title="Chrono Trigger with MSU-1 Soundtrack" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" style={{"aspect-ratio": "16 / 9"}} src="https://www.youtube.com/embed/kDRpukD2Y9M" title="Chrono Trigger with MSU-1 Soundtrack" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
