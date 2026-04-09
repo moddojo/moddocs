@@ -55,7 +55,7 @@ Open the Turtle WoW launcher and enable the Project Reforged custom patches:
 
 ## Reshade
 
-If you'd like to use ReShade with Turtle WoW, ensure to only use the standard version as the addon version of ReShade can interfere with networking. Use the Vulkan API since the game uses the DXVK wrapper.
+If you'd like to use [ReShade](https://reshade.me/) with Turtle WoW, ensure to only use the standard version as the addon version of ReShade can interfere with networking. Use the Vulkan API since the game uses the DXVK wrapper.
 
 ## Example Gameplay
 
