@@ -59,4 +59,4 @@ If you'd like to use [ReShade](https://reshade.me/) with Turtle WoW, ensure to o
 
 ## Example Gameplay
 
-<iframe width="100%" style={{"aspect-ratio": "16 / 9"}} src="https://www.youtube.com/watch?v=06_QJiCYdKY" title="CTurtle WoW: Vanilla World of Warcraft with Project Reforged HD Mod" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" style={{"aspect-ratio": "16 / 9"}} src="https://www.youtube.com/embed/06_QJiCYdKY" title="Turtle WoW: Vanilla World of Warcraft with Project Reforged HD Mod" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
